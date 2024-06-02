@@ -1,0 +1,5 @@
+settings.toml
+adafruit_bus_device
+adafruit_ht16k33
+adafruit_datetime.mpy
+adafruit_ntp.mpy
