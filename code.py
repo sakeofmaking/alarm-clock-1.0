@@ -39,11 +39,11 @@ display.brightness = 0.5
 display.blink_rate = 0
 
 # Initialize IO
-button = digitalio.DigitalInOut(board.GP13)
+button = digitalio.DigitalInOut(board.GP9)
 button.switch_to_input(pull=digitalio.Pull.DOWN)
-button_led = digitalio.DigitalInOut(board.GP14)
+button_led = digitalio.DigitalInOut(board.GP10)
 button_led.direction = digitalio.Direction.OUTPUT
-buzzer = digitalio.DigitalInOut(board.GP1)
+buzzer = digitalio.DigitalInOut(board.GP2)
 buzzer.direction = digitalio.Direction.OUTPUT
 
 # Initialize RTC
