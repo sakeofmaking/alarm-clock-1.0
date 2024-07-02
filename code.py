@@ -11,7 +11,7 @@ import board
 import digitalio
 import busio
 from adafruit_ht16k33.segments import Seg7x4
-from adafruit_datetime import datetime as dt_datetime, timedelta as dt_timedelta, time as dt_time
+from adafruit_datetime import datetime as dt_datetime, timedelta as dt_timedelta
 import rtc
 
 
